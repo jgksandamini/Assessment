@@ -15,20 +15,10 @@
         android:textSize="50sp"
         android:layout_marginBottom="20dp"/>
 
-    <ImageView
-        android:contentDescription="@string/imgCheckCar"
-        android:id="@+id/imgCheckCar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtAddCar"
-        android:src="@drawable/bmw_m_check_car"
-        android:layout_marginBottom="50dp"
-        android:adjustViewBounds="true" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgCheckCar"
+        android:layout_below="@+id/txtAddCar"
         android:gravity="center"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"

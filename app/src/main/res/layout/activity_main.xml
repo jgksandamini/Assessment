@@ -13,21 +13,12 @@
         android:textSize="50sp"
         android:layout_marginBottom="20dp"/>
 
-    <ImageView
-        android:contentDescription="@string/imgCarApp"
-        android:id="@+id/imgMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtTitle"
-        android:src="@drawable/bmw_m_car_app"
-        android:layout_marginBottom="50dp"
-        android:adjustViewBounds="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
         android:id="@+id/btnAddCar"
-        android:layout_below="@id/imgMain"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:textSize="30sp"
